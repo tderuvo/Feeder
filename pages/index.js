@@ -8,7 +8,7 @@ export default function Home() {
   const submitHandler = (e) => {
     e.preventDefault();
     if (inputValue === "Either you run the day or the day runs you") {
-      window.open("https://magnificent-paprenjak-ebf081.netlify.app", "_blank");
+      window.open("https://musical-starship-a748983.netlify.app", "_blank");
     } else if (inputValue === "Either you run the day or the day runs you") {
       window.open("https://nbc.com", "_blank");
     } else {
