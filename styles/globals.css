@@ -26,18 +26,33 @@ a {
   }
 }
 
-main {
+.home {
   text-align: center;
-  margin: 20vh 0px;
+  /* margin: 20vh 0px; */
 }
 
-main h1,
-main p {
+.home header {
+  position: relative;
+  height: 95vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url("https://images.pexels.com/photos/6046493/pexels-photo-6046493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: 100vw 95vh !important;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home header h1,
+.home header p {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
 }
 
-main .input-container {
+.home header .input-container {
   display: flex;
   justify-content: center;
   gap: 15px;
@@ -45,26 +60,72 @@ main .input-container {
   margin-top: 23px;
 }
 
-main .input-container input {
-  width: 30%;
+.home .input-container input {
   min-width: max-content;
+  width: 43% !important;
+  border: 2px solid black;
   padding: 10px;
   font-size: 17px;
   color: black;
   font-style: italic;
 }
 
-main .input-container button {
+.home .input-container button {
   background-color: #4473c3;
-  border: none;
+  border: 1px solid black;
   color: white;
   padding: 0px 15px;
   font-size: 15px;
   border-radius: 4px;
 }
 
-main .input-container input::placeholder {
+.home .input-container input::placeholder {
   font-size: 17px;
   color: black;
   font-style: italic;
+}
+
+.home main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10%;
+  margin-top: 100px;
+  text-align: left;
+}
+
+.home main h1 {
+  font-size: 36px;
+}
+
+.home main p {
+  font-size: 19px;
+}
+
+.home main h1,
+.home main p {
+  margin-bottom: 4px;
+  margin-top: 0px;
+}
+
+.home main img {
+  width: 260px;
+  height: 200px;
+}
+
+@media (max-width: 500px) {
+  .home header {
+    height: 54vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.6)
+      ),
+      url("https://i0.wp.com/www.alabamanewscenter.com/wp-content/uploads/2018/04/Lasagna-Feature-1.jpg?fit=640%2C360&ssl=1");
+    background-size: 100vw 54vh !important;
+  }
+
+  .home main img {
+    margin-bottom: 43px;
+  }
 }
