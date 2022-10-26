@@ -29,7 +29,7 @@ export default function Home() {
 
       <header>
         <div>
-          <h1>New Recipes?</h1>
+          <h1>Want New Recipes?</h1>
           <p>Submit your request for your favorite recipe</p>
           <form onSubmit={submitHandler}>
             <div className="input-container">
@@ -111,7 +111,7 @@ export default function Home() {
             oven preheated to 375 degrees F. Cover it with foil for the first 25
             minutes, then let it cook uncovered for the final 25 minutes. Also,
             it's important to let the lasagna rest at room temperature for about
-            15 minutes before you cut into it.
+            15 minutes before you cut into it. Happy eating!
           </p>
         </div>
       </main>
