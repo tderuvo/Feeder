@@ -8,12 +8,12 @@ export default function Home() {
   const submitHandler = (e) => {
     e.preventDefault();
     if (inputValue === "Either you run the day or the day runs you") {
-      window.open("musical-starship-a748983d.netlify.app", "_blank");
+      window.open("https://musical-starship-a748983d.netlify.app", "_blank");
     } else if (
       inputValue ===
       "If you keep happy thoughts in your mind soon your life becomes happier"
     ) {
-      window.open("musical-starship-a748983d.netlify.app", "_blank");
+      window.open("https://musical-starship-a748983d.netlify.app", "_blank");
     } else {
       swal("Thank	you	for	submitting", inputValue, "success");
     }
