@@ -9,10 +9,7 @@ export default function Home() {
     e.preventDefault();
     if (inputValue === "Either you run the day or the day runs you") {
       window.open("https://musical-starship-aa748983d.netlify.app", "_blank");
-    } else if (
-      inputValue ===
-      "If you keep happy thoughts in your mind soon your life becomes happier"
-    ) {
+    } else if (inputValue === "At the end of hardship comes happiness") {
       window.open("https://musical-starship-aa748983d.netlify.app", "_blank");
     } else {
       swal("Thank	you	for	submitting", inputValue, "success");
