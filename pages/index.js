@@ -7,10 +7,10 @@ export default function Home() {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    if (inputValue === "Either you run the day or the day runs you") {
-      window.open("https://musical-starship-aa748983d.netlify.app", "_blank");
+    if (inputValue === "How high you fly is derived from how big you think") {
+      window.open("https://musical-starship-aa748983e.netlify.app/", "_blank");
     } else if (inputValue === "At the end of hardship comes happiness") {
-      window.open("https://musical-starship-aa748983d.netlify.app", "_blank");
+      window.open("https://musical-starship-aa748983e.netlify.app/", "_blank");
     } else {
       swal("Thank	you	for	submitting", inputValue, "success");
     }
